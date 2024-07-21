@@ -1,0 +1,256 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+* {
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(232, 244, 247);
+  color: #404040;
+}
+
+main {
+  padding: 100px 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.components {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+h2 {
+  border-left: solid powderblue 10px;
+  padding-left: 10px;
+}
+
+h3 {
+  border-left: solid powderblue 6px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#common_header  {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+
+  background-color: powderblue;
+  color: white;
+
+  display: flex;
+  align-items: center;
+}
+
+#common_header_wrap {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#common_header_navi {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.navi_link {
+  background-color: powderblue;
+  color: white;
+  border: solid white 1px;
+  border-radius: 10px;
+
+  width: 80px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navi_link:hover {
+  background-color: rgb(232, 244, 247);
+  color: powderblue;
+  border: solid powderblue 1px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#common_footer  {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 25px;
+
+  background-color: powderblue;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#tableHeaderRow {
+  background-color: powderblue;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.tableSongRow {
+  border-bottom: solid powderblue 1px;
+}
+
+.tableRow {
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+}
+
+.tableColId {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.tableColSong {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.tableColButton {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.actionButton {
+  background-color: powderblue;
+  color: white;
+  border-radius: 10px;
+
+  width: 80px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actionButton:hover {
+  background-color: rgb(232, 244, 247);
+  color: powderblue;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#part_chord_blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.part_chord_block{
+  background-color: rgb(232, 244, 247);
+  border: solid 1px powderblue;
+  border-radius: 20px;
+  width: 220px;
+  margin-bottom: 25px;
+  margin-left: 3px;
+}
+
+.part_chord_block_lyric{
+  border-bottom: solid powderblue 1px;
+  padding: 10px 20px 5px 20px;
+}
+
+.part_chord_block_chord{
+  padding: 5px 20px 10px 20px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#input_song_data {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.input_parts {
+  display: flex;
+}
+
+.input_label {
+  display: block;
+  width: 120px;
+  border-left: solid powderblue 6px;
+  padding-left: 10px;
+  background-color: rgb(232, 244, 247);
+  margin-right: 10px;
+}
+
+.input_inputarea {
+  display: block;
+  width: 600px;
+}
+
+#submit_button {
+  width: 100px;
+  height: 40px;
+  background-color: powderblue;
+  color: white;
+  border-radius: 10px;
+  font-size: medium;
+}
+
+#submit_button:hover {
+  background-color: rgb(232, 244, 247);;
+  color: powderblue;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#Common_to_top_button {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  background-color: powderblue;
+}
+
+#Common_to_top_button a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  text-decoration: none;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
