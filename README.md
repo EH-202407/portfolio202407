@@ -1,8 +1,18 @@
-# React + Vite
+# my musical scores
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 概要
+コード譜をパソコン上で管理するためのWebアプリ。
 
-Currently, two official plugins are available:
+## 制作の動機
+最近ウクレレを始めた家族が、演奏に使う楽譜をノートに手書きしてるのを見ました。
+これをパソコンで管理できたら便利ではないかと思い、楽譜を登録・閲覧できるWebアプリを制作しました。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 開発環境
+・OS：macOS
+・エディタ：Visual Studio Code
+・ブラウザ：Safar、Google Chrome
+
+## 開発技術
+・開発言語：HTML/CSS、JavaScript
+・フレームワーク：React+Vite
+・データベース：IndexedDB
