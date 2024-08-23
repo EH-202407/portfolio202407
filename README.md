@@ -8,11 +8,11 @@
 これをパソコンで管理できたら便利ではないかと思い、楽譜を登録・閲覧できるWebアプリを制作しました。
 
 ## 開発環境
-・OS：macOS
-・エディタ：Visual Studio Code
+・OS：macOS<br>
+・エディタ：Visual Studio Code<br>
 ・ブラウザ：Safar、Google Chrome
 
 ## 開発技術
-・開発言語：HTML/CSS、JavaScript
-・フレームワーク：React+Vite
+・開発言語：HTML/CSS、JavaScript<br>
+・フレームワーク：React+Vite<br>
 ・データベース：IndexedDB
